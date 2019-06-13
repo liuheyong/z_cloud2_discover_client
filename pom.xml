@@ -25,7 +25,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <!--z_cloud_commons-->
+        <!--z_cloud2_commons-->
         <dependency>
             <groupId>com.cloud2.commons</groupId>
             <artifactId>z_cloud2_commons</artifactId>
