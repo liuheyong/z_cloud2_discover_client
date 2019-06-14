@@ -18,6 +18,7 @@ public class DcController {
 
     @GetMapping(Constants.CLOUD2 + "/dc")
     public String dc() {
+        //Thread.sleep(5000);
         String services = "Services: " + discoveryClient.getServices();
         logger.info(services);
         return services;
